@@ -1,4 +1,4 @@
-#include <printf.h>
+#include <stdio.h>
 #include "constant.h"
 
 

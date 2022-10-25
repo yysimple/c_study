@@ -3,7 +3,7 @@
 #include "constant/constant.h"
 
 int main() {
-    printf("Hello, World!\n");
+    printf("Hello, World!你好\n");
     printf("----------------------\n");
     type_print();
     const_print_define();
