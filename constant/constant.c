@@ -26,3 +26,13 @@ int const_print_const() {
 
     return 0;
 }
+
+int const_print_val() {
+    int a = 85;
+    int b = 0213;
+    int c = 0x4b;
+    printf("十进制: %d\n", a);
+    printf("八进制: %d\n", b);
+    printf("十六进制: %d\n", c);
+    printf("%c", NEWLINE);
+}

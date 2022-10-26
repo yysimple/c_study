@@ -8,6 +8,7 @@ int main() {
     type_print();
     const_print_define();
     const_print_const();
+    const_print_val();
     printf("----------------------\n");
     return 0;
 }
