@@ -2,6 +2,7 @@
 #include "type/type.h"
 #include "constant/constant.h"
 #include "cal/cal.h"
+#include "enum/enum.h"
 
 static int a = 10;
 
@@ -16,8 +17,10 @@ int main() {
     printf("----------------------\n");
 
     // cal_base_result();
-    cal_base_result01();
-    condition_test();
+    //cal_base_result01();
+    //condition_test();
+    // enum_test();
+    enum_switch();
     printf("----------------------\n");
     return 0;
 }
