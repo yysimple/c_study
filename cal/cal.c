@@ -25,6 +25,9 @@ void cal_base_result() {
     printf("Line 7 - c 的值是 %d\n", c);
 }
 
+/*
+ * 加减运算，跟java是一样的
+ */
 void cal_base_result01() {
     int c;
     int a = 10;
@@ -46,4 +49,19 @@ void cal_base_result01() {
     c = --a;
     printf("Line 7 - c 的值是 %d\n", c);
     printf("Line 8 - a 的值是 %d\n", a);
+}
+
+/*
+ * 条件控制语句
+ */
+void condition_test() {
+    int val = 10;
+    for (int i = 0; i < val; ++i) {
+        printf("我是for循环：%d\n", i);
+    }
+
+    while (val < 1) {
+        val--;
+        printf("我是while循环：%d\n", val);
+    }
 }

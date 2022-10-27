@@ -9,3 +9,4 @@
 
 void cal_base_result();
 void cal_base_result01();
+void condition_test();

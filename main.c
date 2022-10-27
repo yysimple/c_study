@@ -17,6 +17,7 @@ int main() {
 
     // cal_base_result();
     cal_base_result01();
+    condition_test();
     printf("----------------------\n");
     return 0;
 }
