@@ -4,6 +4,7 @@
 #include "cal/cal.h"
 #include "enum/enum.h"
 #include "point/point.h"
+#include "str/str.h"
 
 static int a = 10;
 
@@ -24,7 +25,8 @@ int main() {
     // enum_switch();
     // test_max_multi_nums();
     // test_no_point_max_multi_nums();
-    test_callback();
+    // test_callback();
+    test_print_str();
     printf("----------------------\n");
 
     return 0;

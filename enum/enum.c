@@ -1,6 +1,6 @@
 
 /* 可以使用常量的方式来定义，跟java里面差不多 */
-#include <printf.h>
+#include <stdio.h>
 #include "enum.h"
 
 int enum_test() {

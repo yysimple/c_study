@@ -9,4 +9,5 @@ add_executable(c_study main.c
         cal/cal.c cal/cal.h
         arr/array.c arr/array.h
         enum/enum.c enum/enum.h
-        point/point.c point/point.h)
+        point/point.c point/point.h
+        str/str.c str/str.h)
