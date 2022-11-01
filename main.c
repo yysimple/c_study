@@ -3,6 +3,7 @@
 #include "constant/constant.h"
 #include "cal/cal.h"
 #include "enum/enum.h"
+#include "point/point.h"
 
 static int a = 10;
 
@@ -20,7 +21,11 @@ int main() {
     //cal_base_result01();
     //condition_test();
     // enum_test();
-    enum_switch();
+    // enum_switch();
+    // test_max_multi_nums();
+    // test_no_point_max_multi_nums();
+    test_callback();
     printf("----------------------\n");
+
     return 0;
 }
