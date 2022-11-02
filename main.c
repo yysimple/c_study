@@ -5,6 +5,7 @@
 #include "enum/enum.h"
 #include "point/point.h"
 #include "str/str.h"
+#include "struct/struct.h"
 
 static int a = 10;
 
@@ -16,7 +17,7 @@ int main() {
     //const_print_const();
     //const_print_val();
     //const_print_store(a);
-    printf("----------------------\n");
+    //printf("----------------------\n");
 
     // cal_base_result();
     //cal_base_result01();
@@ -26,8 +27,10 @@ int main() {
     // test_max_multi_nums();
     // test_no_point_max_multi_nums();
     // test_callback();
-    test_print_str();
+    //test_print_str();
+    use_struct();
     printf("----------------------\n");
+
 
     return 0;
 }
