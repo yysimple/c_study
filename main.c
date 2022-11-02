@@ -6,6 +6,7 @@
 #include "point/point.h"
 #include "str/str.h"
 #include "struct/struct.h"
+#include "file/file.h"
 
 static int a = 10;
 
@@ -28,11 +29,12 @@ int main() {
     // test_no_point_max_multi_nums();
     // test_callback();
     //test_print_str();
-    use_struct();
+    // use_struct();
     printf("----------------------\n");
     //union_use();
-    cover_address_use();
-
+    // cover_address_use();
+    // test_file_write();
+    test_file_read();
 
     return 0;
 }
