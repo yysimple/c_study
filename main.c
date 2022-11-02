@@ -30,6 +30,8 @@ int main() {
     //test_print_str();
     use_struct();
     printf("----------------------\n");
+    //union_use();
+    cover_address_use();
 
 
     return 0;
