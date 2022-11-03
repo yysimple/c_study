@@ -7,6 +7,7 @@
 #include "str/str.h"
 #include "struct/struct.h"
 #include "file/file.h"
+#include "predefine/pre.h"
 
 static int a = 10;
 
@@ -34,7 +35,8 @@ int main() {
     //union_use();
     // cover_address_use();
     // test_file_write();
-    test_file_read();
-
+    // test_file_read();
+    const_define();
+    param_define();
     return 0;
 }
