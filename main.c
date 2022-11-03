@@ -8,6 +8,7 @@
 #include "struct/struct.h"
 #include "file/file.h"
 #include "predefine/pre.h"
+#include "error/error.h"
 
 static int a = 10;
 
@@ -36,7 +37,9 @@ int main() {
     // cover_address_use();
     // test_file_write();
     // test_file_read();
-    const_define();
-    param_define();
+    //const_define();
+    //param_define();
+    // test_file_err();
+    test_dividend_zero();
     return 0;
 }
