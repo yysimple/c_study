@@ -11,4 +11,4 @@ add_executable(c_study main.c
         enum/enum.c enum/enum.h
         point/point.c point/point.h
         str/str.c str/str.h struct/struct.c struct/struct.h
-        file/file.c file/file.h predefine/pre.c predefine/pre.h)
+        file/file.c file/file.h predefine/pre.c predefine/pre.h error/error.c error/error.h)
