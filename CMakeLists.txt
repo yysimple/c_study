@@ -15,4 +15,5 @@ add_executable(c_study main.c
         file/file.c file/file.h
         predefine/pre.c predefine/pre.h
         error/error.c error/error.h
-        test/net/domian_analysis.c test/net/domian_analysis.h)
+        test/net/domian_analysis.c test/net/domian_analysis.h
+        test/util/dns_util.c test/util/dns_util.h)
