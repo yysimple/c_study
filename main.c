@@ -28,7 +28,7 @@ int main() {
     // enum_test();
     // enum_switch();
     // test_max_multi_nums();
-    // test_no_point_max_multi_nums();
+    test_no_point_max_multi_nums();
     // test_callback();
     //test_print_str();
     // use_struct();
@@ -40,6 +40,6 @@ int main() {
     //const_define();
     //param_define();
     // test_file_err();
-    test_dividend_zero();
+    // test_dividend_zero();
     return 0;
 }

@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <string.h>
-#include <process.h>
+#include <stdlib.h>
 
 extern int errno;
 
