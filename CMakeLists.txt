@@ -10,5 +10,9 @@ add_executable(c_study main.c
         arr/array.c arr/array.h
         enum/enum.c enum/enum.h
         point/point.c point/point.h
-        str/str.c str/str.h struct/struct.c struct/struct.h
-        file/file.c file/file.h predefine/pre.c predefine/pre.h error/error.c error/error.h)
+        str/str.c str/str.h
+        struct/struct.c struct/struct.h
+        file/file.c file/file.h
+        predefine/pre.c predefine/pre.h
+        error/error.c error/error.h
+        test/net/domian_analysis.c test/net/domian_analysis.h)

@@ -9,10 +9,11 @@
 #include "file/file.h"
 #include "predefine/pre.h"
 #include "error/error.h"
+#include "test/net/domian_analysis.h"
 
 static int a = 10;
 
-int main() {
+int main(int argc, char *argv[]) {
     printf("Hello, World!你好\n");
     printf("----------------------\n");
     //type_print();
@@ -28,10 +29,15 @@ int main() {
     // enum_test();
     // enum_switch();
     // test_max_multi_nums();
-    test_no_point_max_multi_nums();
+    // test_no_point_max_multi_nums();
     // test_callback();
     //test_print_str();
     // use_struct();
+    if (argc < 2) {
+        printf("please input domain!\n");
+        return -1;
+    }
+    dns_client_commit(argv[1]);
     printf("----------------------\n");
     //union_use();
     // cover_address_use();
